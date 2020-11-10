@@ -1,0 +1,20 @@
+{
+    "name": "denis-prado/api-rest-sercon",
+    "description": "API REST SERCON",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Prado",
+            "email": "denis@ext.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SRC\\": "src/"
+        }
+    },
+    "require": {
+        "adodb/adodb-php": "dev-master"
+    }
+}
